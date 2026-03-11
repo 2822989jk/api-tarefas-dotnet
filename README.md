@@ -1,19 +1,15 @@
-# API de Tarefas (.NET)
+## Endpoints da API
 
-API simples desenvolvida em C# utilizando ASP.NET Core para gerenciamento básico de tarefas.
+GET /api/tarefas  
+Retorna a lista de tarefas.
 
-## Funcionalidades
+POST /api/tarefas  
+Adiciona uma nova tarefa.
 
-- Listar tarefas
-- Adicionar novas tarefas
+Exemplo de JSON:
 
-## Tecnologias
-
-- C#
-- ASP.NET Core
-- Web API
-
-## Objetivo
-
-Projeto criado para praticar conceitos básicos de desenvolvimento de APIs REST com .NET.
-
+{
+  "id": 1,
+  "nome": "Estudar .NET",
+  "concluida": false
+}
